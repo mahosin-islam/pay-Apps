@@ -36,27 +36,27 @@
 <h1 class="md:text-3xl text-[20px] font-bold pb-2">🔥 Welcome to Payooo!</h1>
 <P class="text-gray-400">Enjoy easy and convenient financial services with us. <br> Cashout charge is low and </P>
 <div class="mt-8 grid grid-cols-3 gap-[20px] ">
-    <div id="addmoney" class=" p-8 border rounded-2xl bg-[white] flex justify-center items-center flex-col">
+    <div id="addmoney" class="about  p-8 border rounded-2xl bg-[white] flex justify-center items-center flex-col">
         <img src="/assets/money1.png" alt="">
         <h3>  Add Money</h3>
     </div>
-    <div  id="Cashout" class="p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col ">
+    <div  id="Cashout" class="about bp-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col ">
         <img src="/assets/send1.png" alt="">
         <h3>Cashout</h3>
     </div>
-    <div id="Transfer" class="p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
+    <div id="Transfer" class="about p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
         <img src="/assets/purse1.png" alt="">
         <h3>Trasfer Money</h3>
     </div>
-    <div id="bunas" class="p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
+    <div id="bunas" class="about p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
         <img src="/assets/transaction1.png" alt="">
         <h3>Get Bonus</h3>
     </div>
-    <div id="paybil" class="p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
+    <div id="paybil" class="about p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
         <img src="/assets/bonus1.png" alt="">
         <h3>Pay Bill</h3>
     </div>
-    <div  id="sendmoney" class="p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
+    <div  id="sendmoney" class="about p-8 border rounded-2xl bg-[#f4f5f7] flex justify-center items-center flex-col">
         <img src="/assets/wallet1.png" alt="">
         <h3>send Money</h3>
     </div>
@@ -77,7 +77,7 @@
 </select>
 
 <label for="" class="">Bnck Account number</label><br>
-  <input type="text" id="bank-account" placeholder="your accout number" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full">
+  <input type="text" id="bank-account" placeholder="your accout number 11 disit" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full">
 
 <label for="" class="">Amount to Add</label><br>
 <input  type="text" id="addamount" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Add amount"><br>
@@ -94,11 +94,11 @@
  <form action="
  "></form>    
 <label for="" class="">Agent Number</label><br>
-<input type="text" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 11 disit number"><br>
+<input type="text" id="cashout-account" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 11 disit number"><br>
 <label for="" class="">Amount</label><br>
-<input type="text" id="with-drow" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter amount withdrow"><br>
+<input type="text" id="cashout-amount" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter amount withdrow"><br>
 <label for="" class="">Pin Number</label><br>
-<input type="text" id="pine" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 4 digit pin number"><br>
+<input type="text" id="cashout-pin" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 4 digit pin number"><br>
 <button id="baba" class="bg-blue-700 p-4 rounded-[25px] m-3 w-full text-white text-2xl font-semibold">withdrow Money</button>
 </div>
 </section>
@@ -109,13 +109,19 @@
 <div class="main-div bg-white w-full rounded-2xl p-5">
  <form action="
  "></form>    
+ <label for="" class="">Select A Bank</label><br>
+<select  class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" id="trans-bank">
+    <option value="">Dhka Bank</option>
+    <option value="">Islamic Bank</option>
+    <option value="">IFIC Bank</option>
+</select>
 <label for="" class="">User Account Number</label><br>
-<input type="text" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 11 disit number"><br>
+<input type="text" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" id="trans-account" placeholder="Enter 11 disit number"><br>
 <label for="" class="">Amount</label><br>
-<input type="text" id="with-drow" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter amount to transfer"><br>
+<input type="text" id="trans-amount" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter amount to transfer"><br>
 <label for="" class="">Pin Number</label><br>
-<input type="text" id="pine" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 4 digit pin number"><br>
-<button id="baba" class="bg-blue-700 text-white p-4 rounded-[25px] m-3 w-full text-2xl font-semibold">Send Now</button>
+<input type="text" id="trans-pin" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 4 digit pin number"><br>
+<button id="transfer-send" class="bg-blue-700 text-white p-4 rounded-[25px] m-3 w-full text-2xl font-semibold">Send Now</button>
 </div>
 </section>
 
@@ -128,8 +134,8 @@
  "></form>    
 
 <label for="" class="">Enter Bonus Coupon</label><br>
-<input type="text" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter your coupon code"><br>
-<button type="text" class="py-3 w-full flex justify-center text-white text-2xl rounded-[20px] bg-blue-700 font-semibold">Get Bonus</button>
+<input type="text" id="bonus-copon" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter your coupon code"><br>
+<button type="text" class="py-3 w-full flex justify-center text-white text-2xl rounded-[20px] bg-blue-700 font-semibold" id="bonus-btn">Get Bonus</button>
 </div>
 </section>
 
@@ -140,18 +146,16 @@
  <form action="
  "></form>    
 <label for="" class="">Select To pay</label><br>
-<input type="text" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 11 disit number"><br>
+<input id="pay-account" type="text" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 11 disit number"><br>
 <label for="" class="">Amount to Pay</label><br>
-<input type="text" id="with-drow" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Add Amount to pay"><br>
+<input type="text" id="pay-amount" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Add Amount to pay"><br>
 <label for="" class="">Pin Number</label><br>
-<input type="text" id="pine" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 4 digit pin number"><br>
-<button id="baba" class="bg-blue-700 p-4 rounded-[25px] m-3 w-full font-semibold text-2xl text-white">pay Now</button>
+<input type="text" id="pay-pine" class="bg-[#f4f5f7] p-4 rounded-[25px] m-3 w-full" placeholder="Enter 4 digit pin number"><br>
+<button id="pay-send" class="bg-blue-700 p-4 rounded-[25px] m-3 w-full font-semibold text-2xl text-white">pay Now</button>
 </div>
 </section>
 <!-- section-ara-sentMOnoey--6-->
- </section>
-<!-- section-ara-transection -->
-<section id="tansaction" class="common  min-h-[300px] w-full bg-blue-100 pt-8 p-6">
+ <section id="tansaction" class="common  min-h-[300px] w-full bg-blue-100 pt-8 p-6">
 <h2 class="py-5 text-2xl font-bold">Latest Payment</h2>
 <div class="main-div">
     <div class="child  h-auto bg-white rounded-[12px]  w-full mb-4 p-4 flex justify-between">
