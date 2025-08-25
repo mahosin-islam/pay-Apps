@@ -11,7 +11,7 @@ loginBtn.addEventListener('click',function(){
 let digit=digitPin.value;
      if(mobile.length == 11) {
         if(digit.length==4){
-                    window.location.href='/stor-html/Payo.html'
+                    window.location.href='stor-html/Payo.html'
         }
         else{
             alert('wrong you digit');
