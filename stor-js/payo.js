@@ -1,3 +1,4 @@
+//togling - main paren
 const select =document.getElementsByClassName('common');
 const color =document.getElementsByClassName('about');
 //addMoney
@@ -11,7 +12,8 @@ for(const col of color){
 document.getElementById('addmoney-child').style.display='block';
 
 document.getElementById('addmoney').style.backgroundColor='pink';
-
+ 
+  
 
 });
 //chashout
@@ -59,14 +61,15 @@ for(const col of color){
 document.getElementById('pay-child').style.display='block';
 document.getElementById('paybil').style.backgroundColor='pink';
 });
-  // send-money
-const sendMoney=document.getElementById('sendmoney').addEventListener('click',function(){
+  // send-transation-history
+const sendMoney=document.getElementById('tansaction-btn').addEventListener('click',function(){
    for(const selec of select){
   selec.style.display='none';
 }
 for(const col of color){
   col.style.backgroundColor='white';
 }
-document.getElementById('tansaction').style.display='block';
-document.getElementById('sendmoney').style.backgroundColor='pink';
+document.getElementById('tansaction-history').style.display='block';
+document.getElementById('tansaction-btn').style.backgroundColor='pink';
+   console.log(transactionData)
 });
