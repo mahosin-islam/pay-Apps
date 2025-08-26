@@ -123,7 +123,7 @@ document.getElementById('pay-send').addEventListener('click',function(){
   document.getElementById('total').innerText=valid;
   
   const  add={
-      nam:'pay bill',
+      nam:'Mobile Recharge',
       date:new Date().toLocaleString()
    };
    transactionData.push(add);
@@ -145,9 +145,9 @@ document.getElementById('tansaction-btn').addEventListener('click',function(){
         <div class=" rounded-[18px] bg-[#f4f5f7]">
         <img  src="../assets/wallet1.png" class="w-12 p-3 h-12" alt="">
       </div>
-      <div>
-        <h2>${add.nam}</h2>
-         <span>${add.date}</span>
+      <div class="flex justify-between items-center">
+        <h2 class=" font-bold">${add.nam}</h2>
+         <span ">${add.date}</span>
       </div>
       </div>
       <i class="fa-solid fa-ellipsis-vertical   mt-4"></i>
