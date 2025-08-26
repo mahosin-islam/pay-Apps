@@ -41,7 +41,7 @@ document.getElementById('addmoney-btn').addEventListener('click',function(e){
   
    const add={
       nam:'addmony',
-      date:new Date().toLocaleDateString()
+      date:new Date().toLocaleString()
    };
    transactionData.push(add);
    console.log(transactionData)
@@ -65,7 +65,7 @@ document.getElementById('baba').addEventListener('click', function(){
   
   const  add={
       nam:'cashout',
-      date:new Date().toLocaleDateString()
+      date:new Date().toLocaleString()
    };
    transactionData.push(add);
    console.log(transactionData)
@@ -89,7 +89,7 @@ document.getElementById('transfer-send').addEventListener('click',function(){
   
  const   add={
       nam:'transaton',
-      date:new Date().toLocaleDateString()
+      date:new Date().toLocaleString()
    };
    transactionData.push(add);
 })
@@ -103,7 +103,7 @@ document.getElementById('bonus-btn').addEventListener('click',function(){
   
 const    add={
       nam:'bonus',
-      date:new Date().toLocaleDateString()
+      date:new Date().toLocaleString()
    };
    transactionData.push(add);
 
@@ -124,7 +124,7 @@ document.getElementById('pay-send').addEventListener('click',function(){
   
   const  add={
       nam:'pay bill',
-      date:new Date().toLocaleDateString()
+      date:new Date().toLocaleString()
    };
    transactionData.push(add);
   
